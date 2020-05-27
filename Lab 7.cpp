@@ -6,9 +6,9 @@ using namespace std;
 
 int main()
 {
-	cout << setiosflags(ios_base::fixed);									//Do Not Use E Notation
-	cout << setiosflags(ios_base::showpoint);								//Always Show Decimal Point
-	cout << setprecision(2);										//Rounded To 2 Decimal Places
+	cout << setiosflags(ios_base::fixed);							//Do Not Use E Notation
+	cout << setiosflags(ios_base::showpoint);						//Always Show Decimal Point
+	cout << setprecision(2);								//Rounded To 2 Decimal Places
 
 	int numberOfemployees;
 	char selection;
@@ -19,15 +19,15 @@ int main()
 	string employeeLastname;
 	bool hasEmployee; 
 
-	const float salaryTaxreductions = .33;										//Const for tax reductiosn on salary workers
-	const float taxReductions = .28;									//Const for tax reductions from per hour workers
+	const float salaryTaxreductions = .33;							//Const for tax reductiosn on salary workers
+	const float taxReductions = .28;							//Const for tax reductions from per hour workers
 	
-	const float counterStaffpay = 10.50;								//Pay for all workers
+	const float counterStaffpay = 10.50;							//Pay for all workers
 	const float kitchenCookspay = 15.75;
 	const float dishwashersPay = 10.50;
 	const float managersPay = 48000;
 
-	hours = 0;															//Initializations 
+	hours = 0;										//Initializations 
 	
 
 	cout << "Do you have an employee to pay?" << endl;
